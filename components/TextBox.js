@@ -4,7 +4,15 @@ import React from 'react';
 export const TextBox=(props)=>{
     return (
           <View>
-          <Text style={{color: props.color, fontSize: props.size}} > {props.Text}</Text>
+          <Text style={
+              
+              {
+                  color: props.color, 
+                  fontSize: props.size
+              }
+              } > 
+              {props.text
+              }</Text>
           </View>
 
     )
