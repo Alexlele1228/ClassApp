@@ -1,12 +1,13 @@
 {
   "expo": {
-    "name": "ClassApp",
-    "slug": "ClassApp",
+    "name": "Lele的小账本",
+    "slug": "lelesw-slug",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "sdkVersion": "38.0.0",
+    "icon": "./assets/Logo.png",
     "splash": {
-      "image": "./assets/splash.png",
+      "image": "./assets/Logo.png",
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
@@ -17,10 +18,17 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.Troy.toilet"
     },
+
+    "android":{
+      "package": "com.yourcompany.yourappname"
+    },
+
     "web": {
       "favicon": "./assets/favicon.png"
+      
     }
   }
 }
